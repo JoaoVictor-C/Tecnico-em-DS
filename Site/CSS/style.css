@@ -182,3 +182,119 @@ header {
    color: rgba(249, 249, 249, 0.8);
    font-weight: 400;
 }
+
+.sec5 {
+   width: 100%;
+   height: 900px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-weight: 700;
+}
+
+.quintaSec {
+   display: grid;
+   grid-template-rows: 100px 300px;
+}
+
+.contentSec5 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 90px;
+   font-size: 32px;
+}
+
+.titleSec5 {
+   font-size: 48px;
+}
+
+.sec6 {
+   width: 100%;
+   height: 592px;
+   background-color: #222634;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.titleSec6 {
+   font-size: 32px;
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 33px;
+}
+
+form {
+   width: 505px;
+   height: 317px;
+}
+
+.inp6 {
+   background-color: #009748;
+   margin-top: 24px;
+   width: 512px;
+   height: 56px;
+}
+
+.textInpSec6 {
+   width: 505px;
+   height: 56px;
+   border-radius: 16px;
+   text-align: center;
+   font-size: 18px;
+   background-color: #2E3447;
+   border: 1px solid white;
+   margin-bottom: 19px;
+   color: white;
+}
+
+.textarea {
+   width: 505px;
+   height: 165px;
+   border-radius: 16px;
+   text-align: center;
+   font-size: 18px;
+   background-color: #2E3447;
+   border: 1px solid white;
+   padding-top: 17px;
+   color: white;
+}
+
+.textarea::placeholder {
+   font-family: 'Inter';
+}
+
+footer {
+   width: 100%;
+   height: 260px;
+   background-color: #222634;
+   padding-top: 114px;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+   padding: 0px 10px;
+}
+
+.logoFooter {
+   margin-bottom: 48.5px;
+}
+
+.linksFooter {
+   margin-bottom: 24px;
+}
+
+.texto1Footer {
+   font-size: 14px;
+   color: #C0C0C0;
+   margin-bottom: 22px;
+}
+
+.texto2Footer {
+   font-size: 14px;
+   color: #C0C0C0;
+   margin-bottom: 22px;
+}
