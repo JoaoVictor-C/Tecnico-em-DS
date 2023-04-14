@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: black;
+   color: white;
+   font-family: 'Inter';
+   font-weight: 400;
+}
+
+header {
+   text-align: center;
+   margin-top: 2.962085308056872vw;
+   margin-bottom: -0.9873617693522907vw;
+}
+
+.imgHeader {
+   width: 14.34965771458662vw;
+   height: 5.26592943654555vw;
+}
+
+.sec1 {
+   height: 55.49433912585571vw;
+}
+
+.primeiraSec {
+   background-image: url('../imagens/fundoPag1.png');
+   background-size: 59.51092680358083vw 44.69457609268036vw;
+   background-position: right;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 48.42680358083202vw;
+   position: static;
+}
+
+.content1 {
+   font-size: 1.843075302790943vw;
+   font-weight: 700;
+   text-align: center;
+   padding: 2.10637177461822vw;
+   margin-bottom: -0.1316482359136388vw;
+}
+
+.secLeft {
+   margin-left: 6.31911532385466vw;
+   width: 43.44391785150079vw;
+   height: 28.43601895734597vw;
+   position: relative;
+   padding-top: 4.476040021063718vw;
+}
+
+.imgSec1 {
+   width: 43.44391785150079vw;
+   height: 9.017904160084255vw;
+}
+
+.botõesSec1 {
+   width: 33.70194839389152vw;
+   height: 3.686150605581885vw;
+   border-radius: 0.526592943654555vw;
+   font-size: 1.05318588730911vw;
+   color: white;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   font-weight: 400;
+}
+
+.inp1 {
+   background-color: #009748;
+   margin-top: 3.027909426013691vw;
+   margin-bottom: 1.05318588730911vw;
+}
+
+.inp2 {
+   border: 0.0658241179568194vw solid white;
+   margin-bottom: 0.6582411795681938vw;
+}
+
+.textSec1 {
+   font-size: 0.7898894154818325vw;
+   color: #C0C0C0;
+   text-align: center;
+}
+
+.sec2 {
+   background-color: #222634;
+   width: 100%;
+   height: 59.24170616113744vw;
+   display: flex;
+   justify-content: center;
+}
+
+.segundaSec {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contentSec2 {
+   width: 41.28488678251711vw;
+   height: 7.503949447077409vw;
+   margin-left: 2.453264876250658vw;
+}
+
+.imgSec2 {
+   width: 43.44391785150079vw;
+   height: 26.17298578199052vw;
+}
+
+.tituloSec2 {
+   font-size: 3.15955766192733vw;
+   font-weight: 700;
+}
+
+.textoSec2 {
+   margin-top: 0.526592943654555vw;
+   font-size: 1.05318588730911vw;
+   color: rgba(249, 249, 249, 0.8);
+   font-weight: 400;
+}
+
+.sec3 {
+   width: 100%;
+   height: 59.24170616113744vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.terceiraSec {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contentSec3 {
+   width: 37.7172195892575vw;
+   margin-right: 3.949447077409163vw;
+}
+
+.textoSec3 {
+   color: rgba(249, 249, 249, 0.8);
+   text-align: center;
+}
+
+.sec4 {
+   background-color: #222634;
+   width: 100%;
+   height: 59.24170616113744vw;
+   display: flex;
+   justify-content: center;
+}
+
+.quartaSec {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contentSec4 {
+   width: 41.28488678251711vw;
+   height: 7.503949447077409vw;
+   margin-left: 2.453264876250658vw;
+}
+
+.imgSec4 {
+   width: 40.231700895208vw;
+   height: 22.61716692996314vw;
+}
+
+.tituloSec4 {
+   font-size: 3.15955766192733vw;
+   font-weight: 700;
+}
+
+.textoSec4 {
+   margin-top: 0.526592943654555vw;
+   font-size: 1.05318588730911vw;
+   color: rgba(249, 249, 249, 0.8);
+   font-weight: 400;
+}
+
+.sec5 {
+   width: 100%;
+   height: 59.24170616113744vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-weight: 700;
+}
+
+.quintaSec {
+   display: grid;
+   grid-template-rows: 6.582411795681938vw 19.74723538704581vw;
+}
+
+.contentSec5 {
+   display: grid;
+   grid-template-columns: 26.32964718272775vw 26.32964718272775vw 26.32964718272775vw ;
+   gap: 5.924170616113744vw;
+   font-size: 2.10637177461822vw;
+}
+
+.titleSec5 {
+   font-size: 3.15955766192733vw;
+}
+
+.sec6 {
+   width: 100%;
+   height: 38.96787783043707vw;
+   background-color: #222634;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.titleSec6 {
+   font-size: 2.10637177461822vw;
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 2.172195892575039vw;
+}
+
+form {
+   width: 33.24117956819379vw;
+   height: 20.86624539231174vw
+}
+
+.inp6 {
+   background-color: #009748;
+   margin-top: 1.579778830963665vw;
+   width: 33.70194839389152vw;
+   height: 3.686150605581885vw;
+}
+
+.textInpSec6 {
+   width: 33.24117956819379vw;
+   height: 3.686150605581885vw;
+   border-radius: 1.05318588730911vw;
+   text-align: center;
+   font-size: 1.05318588730911vw;
+   background-color: #2E3447;
+   border: 0.0658241179568194vw solid white;
+   margin-bottom: 1.250658241179568vw;
+   color: white;
+}
+
+.textarea {
+   width: 33.24117956819379vw;
+   height: 10.8609794628752vw;
+   border-radius: 16px;
+   text-align: center;
+   font-size: 18px;
+   background-color: #2E3447;
+   border: 1px solid white;
+   padding-top: 17px;
+   color: white;
+}
+
+.textarea::placeholder {
+   font-family: 'Inter';
+}
+
+footer {
+   width: 100%;
+   height: 260px;
+   background-color: #222634;
+   padding-top: 114px;
+   text-align: center;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+   padding: 0px 10px;
+}
+
+.logoFooter {
+   margin-bottom: 48.5px;
+}
+
+.linksFooter {
+   margin-bottom: 24px;
+}
+
+.texto1Footer {
+   font-size: 14px;
+   color: #C0C0C0;
+   margin-bottom: 22px;
+}
+
+.texto2Footer {
+   font-size: 14px;
+   color: #C0C0C0;
+   margin-bottom: 22px;
+}
