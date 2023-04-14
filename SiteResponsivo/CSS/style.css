@@ -140,6 +140,11 @@ header {
    align-items: center;
 }
 
+.imgSec3 {
+   width: 38.11216429699842vw;
+   height: 21.19536598209584vw;
+}
+
 .contentSec3 {
    width: 37.7172195892575vw;
    margin-right: 3.949447077409163vw;
@@ -149,11 +154,6 @@ header {
    color: rgba(249, 249, 249, 0.8);
    text-align: center;
    font-size: 1.05318588730911vw;
-}
-
-.imgSec3 {
-   width: 38.11216429699842vw;
-   height: 21.16640337019484vw;
 }
 
 .sec4 {
