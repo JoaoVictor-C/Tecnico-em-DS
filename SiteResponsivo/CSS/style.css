@@ -148,6 +148,12 @@ header {
 .textoSec3 {
    color: rgba(249, 249, 249, 0.8);
    text-align: center;
+   font-size: 1.05318588730911vw;
+}
+
+.imgSec3 {
+   width: 38.11216429699842vw;
+   height: 21.16640337019484vw;
 }
 
 .sec4 {
@@ -213,6 +219,21 @@ header {
    font-size: 3.15955766192733vw;
 }
 
+.img1Sec5 {
+   width: 22.70142180094787vw;
+   height: 12.52830437072143vw;
+}
+
+.img2Sec5 {
+   width: 22.70142180094787vw;
+   height: 12.52830437072143vw;
+}
+
+.img3Sec5 {
+   width: 22.70142180094787vw;
+   height: 12.52830437072143vw;
+}
+
 .sec6 {
    width: 100%;
    height: 38.96787783043707vw;
@@ -239,6 +260,7 @@ form {
    margin-top: 1.579778830963665vw;
    width: 33.70194839389152vw;
    height: 3.686150605581885vw;
+   border: 0.0008241179568194vw solid white;;
 }
 
 .textInpSec6 {
@@ -248,7 +270,7 @@ form {
    text-align: center;
    font-size: 1.05318588730911vw;
    background-color: #2E3447;
-   border: 0.0658241179568194vw solid white;
+   border: 0.0008241179568194vw solid white;
    margin-bottom: 1.250658241179568vw;
    color: white;
 }
@@ -256,12 +278,12 @@ form {
 .textarea {
    width: 33.24117956819379vw;
    height: 10.8609794628752vw;
-   border-radius: 16px;
+   border-radius: 1.05318588730911vw;
    text-align: center;
-   font-size: 18px;
+   font-size: 1.184834123222749vw;
    background-color: #2E3447;
-   border: 1px solid white;
-   padding-top: 17px;
+   border: 0.0358241179568194vw solid white;
+   padding-top: 1.119010005265929vw;
    color: white;
 }
 
@@ -271,34 +293,38 @@ form {
 
 footer {
    width: 100%;
-   height: 260px;
+   height: 17.11427066877304vw;
    background-color: #222634;
-   padding-top: 114px;
+   padding-top: 7.503949447077409vw;
    text-align: center;
 }
 
 a {
    text-decoration: none;
    color: white;
-   padding: 0px 10px;
+   padding: 0px 0.6582411795681938vw;
 }
 
 .logoFooter {
-   margin-bottom: 48.5px;
+   margin-bottom: 3.19246972090574vw;
+   width: 14.34965771458662vw;
+   height: 5.26592943654555vw;
 }
 
 .linksFooter {
-   margin-bottom: 24px;
+   margin-bottom: 1.579778830963665vw;
+   font-size: 1.05vw;
+
 }
 
 .texto1Footer {
-   font-size: 14px;
+   font-size: 0.9215376513954713vw;
    color: #C0C0C0;
-   margin-bottom: 22px;
+   margin-bottom: 1.448130595050026vw;
 }
 
 .texto2Footer {
-   font-size: 14px;
+   font-size: 0.9215376513954713vw;
    color: #C0C0C0;
-   margin-bottom: 22px;
+   margin-bottom: 1.448130595050026vw;
 }
