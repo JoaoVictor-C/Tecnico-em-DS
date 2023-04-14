@@ -5,6 +5,55 @@
    padding: 0;
 }
 
+:root {
+   --1px: 0.0658241179568194vw;
+   --2px: -0.1316482359136388vw;
+   --8px: 0.526592943654555vw;
+   --10px: 0.6582411795681938vw;
+   --12px: 0.7898894154818325vw;
+   --15px: -0.9873617693522907vw;
+   --16px: 1.05318588730911vw;
+   --24px: 1.579778830963665vw;
+   --28px: 1.843075302790943vw;
+   --32px: 2.10637177461822vw;
+   --33px: 2.172195892575039vw;
+   --37px: 2.453264876250658vw;
+   --45px: 2.962085308056872vw;
+   --46px: 3.027909426013691vw;
+   --48px: 3.15955766192733vw;
+   --56px: 3.686150605581885vw;
+   --60px: 3.949447077409163vw;
+   --68px: 4.476040021063718vw;
+   --80px: 5.26592943654555vw;
+   --90px: 5.924170616113744vw;
+   --96px: 6.31911532385466vw;
+   --100px: 6.582411795681938vw;
+   --114px: 7.503949447077409vw
+   --137px: 9.017904160084255vw;
+   --190px: 12.52830437072143vw;
+   --218px: 14.34965771458662vw;
+   --300px: 19.74723538704581vw;
+   --317px: 20.86624539231174vw;
+   --322px: 21.19536598209584vw;
+   --343px: 22.61716692996314vw;
+   --344px: 22.70142180094787vw;
+   --397px: 26.17298578199052vw;
+   --400px: 26.32964718272775vw;
+   --432px: 28.43601895734597vw;
+   --505px: 33.24117956819379vw;
+   --512px: 33.70194839389152vw;
+   --573px: 37.7172195892575vw;
+   --579px: 38.11216429699842vw;
+   --592px: 38.96787783043707vw;
+   --611px: 40.231700895208vw;
+   --627px: 41.28488678251711vw;
+   --660px: 43.44391785150079vw;
+   --679px: 44.69457609268036vw;
+   --735px: 48.42680358083202vw;
+   --843px: 55.49433912585571vw;
+   --904px: 59.51092680358083vw;
+}
+
 body {
    background-color: black;
    color: white;
@@ -14,55 +63,55 @@ body {
 
 header {
    text-align: center;
-   margin-top: 2.962085308056872vw;
-   margin-bottom: -0.9873617693522907vw;
+   margin-top: var(--45px);
+   margin-bottom: var(--15px);
 }
 
 .imgHeader {
-   width: 14.34965771458662vw;
-   height: 5.26592943654555vw;
+   width: var(--218px);
+   height: var(--80px);
 }
 
 .sec1 {
-   height: 55.49433912585571vw;
+   height: var(--843px);
 }
 
 .primeiraSec {
    background-image: url('../imagens/fundoPag1.png');
-   background-size: 59.51092680358083vw 44.69457609268036vw;
+   background-size: var(--904px) var(--679px);
    background-position: right;
    background-repeat: no-repeat;
    width: 100%;
-   height: 48.42680358083202vw;
+   height: var(--735px);
    position: static;
 }
 
 .content1 {
-   font-size: 1.843075302790943vw;
+   font-size: var(--28px);
    font-weight: 700;
    text-align: center;
-   padding: 2.10637177461822vw;
-   margin-bottom: -0.1316482359136388vw;
+   padding: var(--32px);
+   margin-bottom: var(--2px);
 }
 
 .secLeft {
-   margin-left: 6.31911532385466vw;
-   width: 43.44391785150079vw;
-   height: 28.43601895734597vw;
+   margin-left:var(--96px);
+   width: var(--660px);
+   height: var(--432px);
    position: relative;
-   padding-top: 4.476040021063718vw;
+   padding-top: var(--68px);
 }
 
 .imgSec1 {
-   width: 43.44391785150079vw;
-   height: 9.017904160084255vw;
+   width: var(--660px);
+   height: var(--137px);
 }
 
 .botõesSec1 {
-   width: 33.70194839389152vw;
-   height: 3.686150605581885vw;
-   border-radius: 0.526592943654555vw;
-   font-size: 1.05318588730911vw;
+   width: var(--512px);
+   height: var(--56px);
+   border-radius: var(--8px);
+   font-size: var(--16px);
    color: white;
    text-decoration: none;
    display: flex;
@@ -74,17 +123,17 @@ header {
 
 .inp1 {
    background-color: #009748;
-   margin-top: 3.027909426013691vw;
-   margin-bottom: 1.05318588730911vw;
+   margin-top: var(--46px);
+   margin-bottom: var(--16px);
 }
 
 .inp2 {
-   border: 0.0658241179568194vw solid white;
-   margin-bottom: 0.6582411795681938vw;
+   border: var(--1px) solid white;
+   margin-bottom: var(--10px);
 }
 
 .textSec1 {
-   font-size: 0.7898894154818325vw;
+   font-size: var(--12px);
    color: #C0C0C0;
    text-align: center;
 }
@@ -92,7 +141,7 @@ header {
 .sec2 {
    background-color: #222634;
    width: 100%;
-   height: 59.24170616113744vw;
+   height: var(--843px);
    display: flex;
    justify-content: center;
 }
@@ -104,23 +153,23 @@ header {
 }
 
 .contentSec2 {
-   width: 41.28488678251711vw;
-   height: 7.503949447077409vw;
-   margin-left: 2.453264876250658vw;
+   width: var(--627px);
+   height: var(--114px);
+   margin-left: var(--37px);
 }
 
 .imgSec2 {
-   width: 43.44391785150079vw;
-   height: 26.17298578199052vw;
+   width: var(--660px);
+   height: var(--397px);
 }
 
 .tituloSec2 {
-   font-size: 3.15955766192733vw;
+   font-size: var(--48px);
    font-weight: 700;
 }
 
 .textoSec2 {
-   margin-top: 0.526592943654555vw;
+   margin-top: var(--8px);
    font-size: 1.05318588730911vw;
    color: rgba(249, 249, 249, 0.8);
    font-weight: 400;
@@ -128,7 +177,7 @@ header {
 
 .sec3 {
    width: 100%;
-   height: 59.24170616113744vw;
+   height: var(--904px);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -141,25 +190,25 @@ header {
 }
 
 #img3 {
-   width: 38.11216429699842vw;
-   height: 21.19536598209584vw;
+   width: var(--579px);
+   height: var(--322px);
 }
 
 .contentSec3 {
-   width: 37.7172195892575vw;
-   margin-right: 3.949447077409163vw;
+   width: var(--573px);
+   margin-right: var(--60px);
 }
 
 .textoSec3 {
    color: rgba(249, 249, 249, 0.8);
    text-align: center;
-   font-size: 1.05318588730911vw;
+   font-size: var(--16px);
 }
 
 .sec4 {
    background-color: #222634;
    width: 100%;
-   height: 59.24170616113744vw;
+   height: var(--904px);
    display: flex;
    justify-content: center;
 }
@@ -171,31 +220,31 @@ header {
 }
 
 .contentSec4 {
-   width: 41.28488678251711vw;
-   height: 7.503949447077409vw;
-   margin-left: 2.453264876250658vw;
+   width: var(--627px);
+   height: var(--114px);
+   margin-left: var(--37px);
 }
 
 .imgSec4 {
-   width: 40.231700895208vw;
-   height: 22.61716692996314vw;
+   width: var(--611px);
+   height: var(--343px);
 }
 
 .tituloSec4 {
-   font-size: 3.15955766192733vw;
+   font-size: var(--48px);
    font-weight: 700;
 }
 
 .textoSec4 {
-   margin-top: 0.526592943654555vw;
-   font-size: 1.05318588730911vw;
+   margin-top: var(--8px);
+   font-size: var(--16px);
    color: rgba(249, 249, 249, 0.8);
    font-weight: 400;
 }
 
 .sec5 {
    width: 100%;
-   height: 59.24170616113744vw;
+   height: var(--904px);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -205,38 +254,38 @@ header {
 
 .quintaSec {
    display: grid;
-   grid-template-rows: 6.582411795681938vw 19.74723538704581vw;
+   grid-template-rows: var(--100px) var(--300px);
 }
 
 .contentSec5 {
    display: grid;
-   grid-template-columns: 26.32964718272775vw 26.32964718272775vw 26.32964718272775vw ;
-   gap: 5.924170616113744vw;
-   font-size: 2.10637177461822vw;
+   grid-template-columns: var(--400px) var(--400px) var(--400px) ;
+   gap: var(--90px);
+   font-size: var(--32px);
 }
 
 .titleSec5 {
-   font-size: 3.15955766192733vw;
+   font-size: var(--48px);
 }
 
 .img1Sec5 {
-   width: 22.70142180094787vw;
-   height: 12.52830437072143vw;
+   width: var(--344px);
+   height: var(--190px);
 }
 
 .img2Sec5 {
-   width: 22.70142180094787vw;
-   height: 12.52830437072143vw;
+   width: var(--344px);
+   height: var(--190px);
 }
 
 .img3Sec5 {
-   width: 22.70142180094787vw;
-   height: 12.52830437072143vw;
+   width: var(--344px);
+   height: var(--190px);
 }
 
 .sec6 {
    width: 100%;
-   height: 38.96787783043707vw;
+   height: var(--592px);
    background-color: #222634;
    display: flex;
    justify-content: center;
@@ -244,23 +293,23 @@ header {
 }
 
 .titleSec6 {
-   font-size: 2.10637177461822vw;
+   font-size: var(--10px);
    font-weight: 700;
    text-align: center;
-   margin-bottom: 2.172195892575039vw;
+   margin-bottom: var(--33px);
 }
 
 form {
-   width: 33.24117956819379vw;
-   height: 20.86624539231174vw
+   width: var(--505px);
+   height: var((--317px))
 }
 
 .inp6 {
    background-color: #009748;
-   margin-top: 1.579778830963665vw;
-   width: 33.70194839389152vw;
-   height: 3.686150605581885vw;
-   border: 0.0008241179568194vw solid white;;
+   margin-top: var(--24px);
+   width: var(--512px);
+   height: var(--56px);
+   border: var(--1px) solid white;;
 }
 
 .textInpSec6 {
